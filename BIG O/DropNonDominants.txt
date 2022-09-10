@@ -1,0 +1,19 @@
+function logItems(n) {
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+      console.log(i, j);
+    }
+  }
+  for (let k = 0; k < n; j++) {
+    console.log(k);
+  }
+}
+
+
+This code ran for n*n + n = n^2 + n 
+This becomes O(n^2 + n),
+
+here n is not a dominant entity as for n=100, n will be 100 but n^2 will be 10000.
+
+So, n^2 is domination n. Hence, n can be dropped.
+It will become O(n^2)

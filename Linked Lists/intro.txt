@@ -1,0 +1,32 @@
+Linked Lists are unarranged collection of items
+
+Head is the start of the Lists
+Tail is the end of the lists and points towards null
+Each item other than Tail points towards next item
+
+
+Big O of Linked Lists:
+
+1) Insert Item to end -> O(1)
+
+2) Remove Item from end, Since we can't move tail backwards directly due to unarranged structure of linked list. We have iterate over a linked list from the start
+get to the last item and set the tail to it. So this becomes -> O(n)
+
+3) Insert Item to start -> O(1)
+
+4) Remove Item from start -> O(1)
+
+5) Insert Item to middle, iterate from the head and traverse to the desired position, insert the item so it becomes -> O(1)
+
+6) Remove from middle, iterate from head to position, remove the item, rearrange the previous and next position -> O(n)
+
+7) Search By value, start from head and traverse -> O(n)
+
+8) Seaerch By Index, start from head and traverse -> O(n)
+
+
+
+
+UNDER THE HOOD:
+
+What is a node made up of? It is both a value and pointer, in short it is an object which has a value and pointer to point to next.

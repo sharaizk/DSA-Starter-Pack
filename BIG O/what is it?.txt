@@ -1,0 +1,17 @@
+LET's say we have CODE 1 & CODE 2.
+
+Which one is better?
+
+Big O is a mathematical way to compare different codes because we can't compare codes on the basis of time, as a same code might run slower on the slower system and vice versa.
+But the Number of operations will be same so, Big O is used for this purpose.
+
+ We use Time Complexity & Space Complexity to compare different aspects of the code.
+
+
+ Three Greek letters are used for the notations:
+
+ 1) Omega (Best Case)
+ 2) Theta (Average Case)
+ 3) O (Worst Case)
+
+ So, Big O is used to define the worst case.
