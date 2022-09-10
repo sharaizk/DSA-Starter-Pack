@@ -1,7 +1,8 @@
 <div align="center">
 <img src="https://res.cloudinary.com/xdevs/image/upload/c_crop,h_170,w_500/v1662797065/pizza_party_x8hb01.png" >
 </div>
-# Data Structures and Algorithms in JS
+
+## Data Structures and Algorithms in JS
 
 This repo makes you understand and implement the concepts of:
 - Big O
