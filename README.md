@@ -41,7 +41,7 @@ If you wan't to learn about me:
 - [My Website](https://thecodebro.com/)
 ## Feedback
 
-If you have any feedback, please reach out to us at sharaizkhan78@gmail.com
+If you have any feedback, please reach out to me at sharaizkhan78@gmail.com
 
 <div align="center">
   <p>Happy Coding! :computer:</p>
