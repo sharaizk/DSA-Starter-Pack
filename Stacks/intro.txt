@@ -1,0 +1,5 @@
+What is a Stack?
+
+Suppose there's a Can of balls; when a balls A,B,C are added into the can, the only the C ball can be removed first. 
+
+Stack has LIFO; Last In First Out

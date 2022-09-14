@@ -5,7 +5,7 @@ class Node {
   }
 }
 
-class Queue {
+class CircularQueue {
   constructor(value) {
     const newNode = new Node(value);
     this.first = newNode;
@@ -21,15 +21,18 @@ class Queue {
     } else {
       this.last.next = newNode;
       this.last = newNode;
+      this.last.next = this.first
     }
     this.length++;
     return this;
   }
+
   dequeue() {
     if (this.length === 0) return undefined;
     let temp = this.first;
     this.first = this.first.next;
     temp.next = null;
+    this.last.next = this.first
     this.length--;
 
     if (this.length === 0) {
@@ -40,4 +43,7 @@ class Queue {
   }
 }
 
-const newQueue = new Queue(11)
+const newQueue = new CircularQueue(11);
+newQueue.enqueue(3);
+newQueue.enqueue(7)
+console.log(newQueue);

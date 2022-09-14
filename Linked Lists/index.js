@@ -25,8 +25,8 @@ class LinkedList {
       this.tail.next = newNode;
       // Pointing the tail to newly created node
       this.tail = newNode;
-      this.length++;
     }
+    this.length++;
     return this;
   }
 
@@ -144,9 +144,3 @@ class LinkedList {
 }
 
 let myLinkedList = new LinkedList(1);
-myLinkedList.push(2);
-myLinkedList.push(3);
-console.log(myLinkedList);
-
-myLinkedList.reverse();
-console.log(myLinkedList);
