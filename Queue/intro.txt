@@ -1,0 +1,1 @@
+Queue is FiFo -> First in First Out
