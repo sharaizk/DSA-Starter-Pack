@@ -1,0 +1,10 @@
+A function that calls itself until it doesn't, is a Recursion
+
+
+The process of whatever you are doing is same.
+Each time we execute, we make the problem smaller.
+
+
+Cal Stack:
+
+function 1
