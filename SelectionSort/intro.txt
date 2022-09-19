@@ -1,0 +1,3 @@
+We start with first item and store the index of that item in min variable and start comparing the first item in the array.
+If the item compared in the array is less then first tiem then we store it's index in min. At the end of loop we change their position.
+Repeat the process with next item

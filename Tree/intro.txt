@@ -1,0 +1,11 @@
+A linked list is a type of tree. But a tree's node has two arrow's instead of linked list's node's one arrow
+
+In a Binary Tree -> Each node has two nodes on left and right to one node.
+
+A Full Tree has all of the nodes with two childrens
+
+Perfect Tree has values in each line
+
+Node with no children is a leaf
+
+lookup/insert/remove -> O(log n)

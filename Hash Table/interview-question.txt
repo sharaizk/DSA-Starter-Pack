@@ -1,0 +1,13 @@
+Write a code that checks if two arrays have same elements in it?
+Array1 = [1,3,5]
+Array2 = [2,4,5]
+
+1) Using nested for loop.  Outer loop will be on Array1 & inner loop will be on Array2 -> O(n^2)
+2) with objects: 
+ ObjectArray1 = {
+    1:true,
+    3:true,
+    5:true
+ }
+
+ Loop on Array2 and check if array value exists in ObjectArray1. -> O(n) 

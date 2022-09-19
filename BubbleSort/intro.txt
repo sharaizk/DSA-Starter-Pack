@@ -1,0 +1,2 @@
+Bubble Sort: We start with first tiem. If first item is bigger then second we switch their position. If the item is smaller then next item
+we shift the cursor to next item instead of switching position
