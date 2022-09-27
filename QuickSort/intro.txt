@@ -1,0 +1,8 @@
+Quick Sort works by making an index a pivot point. We make the first item the pivot. And start comparing the values one by one. If an item is less than pivot then we 
+exchange it with the first greater item. Then we exchange the pivot with last smaller item.
+
+Now we have two halves and we sort the halves in same way.
+
+Space Complexity: O(1)
+Time Complexity: O(n) + O(log n) = O(n log n)
+worst: O(n^2)

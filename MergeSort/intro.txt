@@ -1,0 +1,20 @@
+MergeSort: It will take the array and cut it in half & will keep cutting the array in half until it has 1 item in each array. Then it will take two arrays and sort them until
+all of the arrays are merged back.
+
+Space Complexity:
+
+
+With merge you have n number of arrays from one array containing n number of elements.
+
+O(n)
+
+Time Complexity:
+With Merge for array of 8 elements you need 3 steps to spread it into 8 arrays of 1 element each.
+
+to merge it back you have to iterate each array. so if you have 8 arrays you need 8 operations.
+So,
+
+breaking apart: O(log n)
+mergin: O(n)
+
+O(log n) + O(n) = O(n log n)
